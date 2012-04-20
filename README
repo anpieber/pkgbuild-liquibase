@@ -1,1 +1,8 @@
 Archlinux AUR Package Build for liquibase
+
+Setup
+=====
+
+* Create package by running makepkg in root directory.
+* Install locally using pacman -U on the created package.
+
