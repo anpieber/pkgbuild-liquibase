@@ -1,0 +1,5 @@
+#!/bin/sh
+
+tar cf liquibase-aur-upload.tar liquibase.sh PKGBUILD
+gzip liquibase-aur-upload.tar
+

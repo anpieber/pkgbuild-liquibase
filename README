@@ -5,4 +5,5 @@ Setup
 
 * Create package by running makepkg in root directory.
 * Install locally using pacman -U on the created package.
+* To upload the package to the aur use the create-aur-upload script and the aur.archlinux.org submit web ui
 
