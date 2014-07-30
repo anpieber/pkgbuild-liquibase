@@ -1,9 +1,4 @@
 #!/bin/sh
 
-mkdir liquibase
-cp liquibase.sh liquibase
-cp PKGBUILD liquibase
-tar cf liquibase-aur-upload.tar liquibase
-gzip liquibase-aur-upload.tar
-rm -rf liquibase
+mkaurball
 
